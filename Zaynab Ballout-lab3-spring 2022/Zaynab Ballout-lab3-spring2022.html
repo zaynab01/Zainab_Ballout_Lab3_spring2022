@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Complete Website using FlexBox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+   
+    <style>
+        * {
+            box-sizing: border-box;
+            border-width: thin;
+        }
+
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 0px;
+            margin: 90px;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            border: 5px solid white;
+        }
+
+        header {
+            background-color: rgb(141, 175, 184);
+            padding: 20px;
+            text-align: left;
+            color: rgb(255, 255, 255);
+            
+        }
+
+        footer {
+            background-color: rgb(122, 122, 120);
+            padding: 10px;
+            text-align: center;
+            color: white;
+            font-size: 15px;
+        }
+
+
+
+        article {
+            /* -webkit-flex: 3;
+                -ms-flex: 3; */
+            /* flex: 3; */
+            padding: 30px;
+            background-color: white;
+            border-style: solid;
+            border-color: rgb(20, 160, 102);
+        }
+
+        /* section {
+                 display: flex; 
+                 display: -webkit-flex; 
+            } */
+
+        @media (max-width: 500px) {
+            section {
+                padding: 300px;
+                margin: 400px;
+
+            }
+        }
+
+        section img {
+            border: 5px solid rgb(35, 96, 39);
+           margin: 20px;
+           justify-content: right;
+
+         
+        }
+
+        span {
+            font-size: large;
+            font-weight: bold;
+
+        }
+
+        section p {
+            border-style: double;
+            border-color: rgb(124, 149, 216);
+            border-width: 5px;
+        }
+        #head{
+            padding:30px ;
+            border:5px solid rgb(4, 3, 3);
+            padding: 0%;
+        }
+        section .first_section{
+            background-color: rgb(217, 148, 226);
+            margin: 30px;
+            
+        }
+        section .second_section{
+            background-color: rgb(248, 200, 128);
+            margin: 30px;
+        }
+        .friend{
+            border: 5px solid black;
+            border:dashed;
+            width: 170px;
+            height: 170px;
+            margin: 30px;
+            background-color: rgb(230, 92, 119);
+            color: white;
+        }
+        .box{
+            display: flex;
+        }
+        #first{text-align: right;
+            background-color: rgb(230, 92, 119);
+        }
+       
+        #second{text-align: right;
+            background-color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+
+   
+    <header>
+        <h1 id="first" >Ballout's Journal</h1>
+        <p id="second">Your imperfections makes you unique.</p>
+    </header>
+    
+    <section class="box" >
+        <div class="friend">
+            <h1>Friends</h1>
+            <ul>
+            <li><a herf = “#Testing1”>Testing1</a></li>
+            <li><a herf = “#Testing2”>Testing2</a></li>
+            <li><a herf = “#Testing3”>Testing3</a> </li>
+            </ul>
+            </div>
+        <article class="first_section">
+           
+            <div >
+                <span id="head">19/10/2020:</span> <span>Friends</span>
+
+            </div>
+            <p> There are  <span style="color:#c563c0">friends</span>,there is family,and then there are <span style="color:rgb(153, 8, 167)">friends</span> that become a family  </p>
+
+            <img src="friends.png" alt="friends" width="250px" height="250px">
+            <p>At the university I met the best people anyone can have in their lives. I met the purest hearts in the world that stands beside me in sickness before happiness and turn in a small time from friends to my support system and family members. </p>
+
+        </article>
+    </section>
+    <section>
+
+        <article class="second_section">
+            <div >
+                <span id="head">3/2/2022:</span>
+                <span>Experiment</span>
+            </div>
+            <img src="life's challenge.jpg" alt="quote" width="250px" height="250px">
+            <p>
+                The true method of knowledge is experiment 
+            </p>
+            <p>In the past years I went through many conflicts and with the help of my family and friends I faced them and  I overcame them.
+                thanks for those who always stands beside us without calling them.</p>
+        </article>
+    </section>
+    <footer>@ USAL</footer>
+
+</body>
+
+</html>
+
+
+
